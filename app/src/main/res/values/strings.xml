@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Device Trader</string>
+    <string name="banner_main">ca-app-pub-9977443028281285/3341356257</string>
+    <string name="banner_web">ca-app-pub-9977443028281285/4259686253</string>
+    <string name="banner_request">ca-app-pub-9977443028281285/7213152654</string>
+    <string name="device_trader_logo">Device Trader</string>
+    <string name="get_a_quote_for_your_device_button">GET A QUOTE FOR YOUR DEVICE</string>
+    <string name="about_our_service_button">ABOUT OUR SERVICE</string>
+    <string name="rate_us_on_google_play_button">RATE US ON GOOGLE PLAY</string>
+    <string name="get_offer_for_your_device">GET OFFER FOR YOUR DEVICE!</string>
+    <string name="enter_your_name_field">ENTER YOUR NAME</string>
+    <string name="enter_your_e_mail_field">ENTER YOUR E-MAIL</string>
+    <string name="enter_your_zip_code_field">ENTER YOUR ZIP CODE</string>
+    <string name="attach_front_picture_field">ATTACH FRONT PICTURE</string>
+    <string name="attach_back_picture_field">ATTACH BACK PICTURE</string>
+    <string name="send_request_button">SEND REQUEST</string>
+    <string name="start_over_button">START OVER</string>
+    <string name="attached_text">ATTACHED</string>
+    <string name="fill_forms_toast">Please fill the form and attach photos!</string>
+    <string name="thank_you_message">Thank you for the request! We will get in touch with you shortly!</string>
+    <string name="internet_down_message">Internet connection is not available or application server is down. Please try again later!</string>
+    <string name="credits_message">Created by Maxim Gerashchev in 2016. To find more information about our services please visit: http://www.netmaxservice.com Any questions? Contact us at: netmax123@gmail.com</string>
+    <string name="current_device">YOUR CURRENT DEVICE:</string>
+
+</resources>

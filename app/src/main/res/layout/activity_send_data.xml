@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.netmaxservice.devicetrader.SendData">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#80CBC4"
+        android:padding="18dp">
+
+        <TextView
+            android:id="@+id/textViewDevice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="@string/get_offer_for_your_device"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textViewDevice"
+            android:background="@drawable/edit_text_focus"
+            android:gravity="center"
+            android:hint="@string/enter_your_name_field"
+            android:inputType="text"
+            android:maxLength="40"
+            android:maxLines="1"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editTextMail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editTextName"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/edit_text_focus"
+            android:gravity="center"
+            android:hint="@string/enter_your_e_mail_field"
+            android:inputType="text"
+            android:maxLength="40"
+            android:maxLines="1"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/editTextZip"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editTextMail"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/edit_text_focus"
+            android:gravity="center"
+            android:hint="@string/enter_your_zip_code_field"
+            android:inputType="number|numberDecimal"
+            android:maxLength="6"
+            android:maxLines="1"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/buttonFrontPic"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editTextZip"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/button"
+            android:gravity="center"
+            android:hint="@string/attach_front_picture_field"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/buttonBackPic"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/buttonFrontPic"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/button"
+            android:gravity="center"
+            android:hint="@string/attach_back_picture_field"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/buttonSendRequest"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/buttonBackPic"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:text="@string/send_request_button"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonStartOver"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/buttonSendRequest"
+            android:layout_marginBottom="80dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/button"
+            android:text="@string/start_over_button"
+            android:textSize="18sp" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_web"></com.google.android.gms.ads.AdView>
+
+
+    </RelativeLayout>
+</ScrollView>
